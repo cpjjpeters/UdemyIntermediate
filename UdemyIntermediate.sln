@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyIntermediate", "UdemyI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testability", "Testability\Testability.csproj", "{BCE07443-7108-4DD6-9AF8-00ADDA86F2D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensibility", "Extensibility\Extensibility.csproj", "{9C77DEED-67E6-4E9D-9A7E-F212E19CB143}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BCE07443-7108-4DD6-9AF8-00ADDA86F2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCE07443-7108-4DD6-9AF8-00ADDA86F2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCE07443-7108-4DD6-9AF8-00ADDA86F2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C77DEED-67E6-4E9D-9A7E-F212E19CB143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C77DEED-67E6-4E9D-9A7E-F212E19CB143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C77DEED-67E6-4E9D-9A7E-F212E19CB143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C77DEED-67E6-4E9D-9A7E-F212E19CB143}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

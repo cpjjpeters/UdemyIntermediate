@@ -7,7 +7,7 @@
             if (order.TotalPrice < 30f)
                 return order.TotalPrice * 0.1f;
 
-            return 0;
+            return 0; 
         }
     }
 }

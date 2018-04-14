@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BCE07443-7108-4DD6-9AF8-00ADDA86F2D3}</ProjectGuid>
+    <ProjectGuid>{9C77DEED-67E6-4E9D-9A7E-F212E19CB143}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Testability</RootNamespace>
-    <AssemblyName>Testability</AssemblyName>
+    <RootNamespace>Extensibility</RootNamespace>
+    <AssemblyName>Extensibility</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Order.cs" />
+    <Compile Include="ConsoleLogger.cs" />
+    <Compile Include="DbMigrator.cs" />
+    <Compile Include="FileLogger.cs" />
+    <Compile Include="ILogger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shipment.cs" />
-    <Compile Include="ShippingCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
