@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensibility", "Extensibil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{C3947AD8-D027-4E04-A25F-DC9EF4AA0A58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{828C1310-D49E-4142-ADCB-5ADCAE87D6DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C3947AD8-D027-4E04-A25F-DC9EF4AA0A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3947AD8-D027-4E04-A25F-DC9EF4AA0A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3947AD8-D027-4E04-A25F-DC9EF4AA0A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828C1310-D49E-4142-ADCB-5ADCAE87D6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828C1310-D49E-4142-ADCB-5ADCAE87D6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828C1310-D49E-4142-ADCB-5ADCAE87D6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828C1310-D49E-4142-ADCB-5ADCAE87D6DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
