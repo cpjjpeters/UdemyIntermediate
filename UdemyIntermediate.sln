@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyIntermediate", "UdemyIntermediate\UdemyIntermediate.csproj", "{4F2381E5-C761-4E86-94B7-F11541552F30}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{828C1310-D49E-4142-ADCB-5ADCAE87D6DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testability.Tests", "Testability.Tests\Testability.Tests.csproj", "{6A5D4C57-AE53-45DE-9BA8-7211A86A9102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleInheritance", "MultipleInheritance\MultipleInheritance.csproj", "{D664976B-B9DD-45E9-8E9F-065C898B4C6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,8 +47,15 @@ Global
 		{6A5D4C57-AE53-45DE-9BA8-7211A86A9102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A5D4C57-AE53-45DE-9BA8-7211A86A9102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A5D4C57-AE53-45DE-9BA8-7211A86A9102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D664976B-B9DD-45E9-8E9F-065C898B4C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D664976B-B9DD-45E9-8E9F-065C898B4C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D664976B-B9DD-45E9-8E9F-065C898B4C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D664976B-B9DD-45E9-8E9F-065C898B4C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {833AD7B6-40EF-4ED8-9DE9-893F9BBE0111}
 	EndGlobalSection
 EndGlobal
